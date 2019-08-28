@@ -23,7 +23,7 @@ end
 
 def my_hash_creator(key, value)
   hash_creator = {
-    :key => value
+    key => value
   }
   puts hash_creator
 end
