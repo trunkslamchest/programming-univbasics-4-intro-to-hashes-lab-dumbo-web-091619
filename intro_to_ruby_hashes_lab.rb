@@ -37,7 +37,7 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
   
   hash.default = 1
-  hash_get = hash.fetch(key, 1)
+
   # hash[key] = "test"
   puts hash_get
 end
