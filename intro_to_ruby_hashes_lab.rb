@@ -50,4 +50,4 @@ puts hash
 end
 
 update_counting_hash({},'hello')
-# update_counting_hash({total: 5},:age)
+update_counting_hash({total: 5},:age)
