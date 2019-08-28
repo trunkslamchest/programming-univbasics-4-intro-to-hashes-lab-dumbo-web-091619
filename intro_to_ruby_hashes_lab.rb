@@ -43,7 +43,7 @@ else
   hash[key] = 1
 end
 
-# puts hash
+return hash
 # hash[key] ? hash[key] += 1 : hash[key] = 1
 
 
