@@ -24,10 +24,10 @@ end
 def my_hash_creator(key, value)
   hash_creator = Hash.new
   hash_creator[key] = value
-  puts hash_creator
+  # puts hash_creator
 end
 
-my_hash_creator(:name, 'Grace Hopper')
+# my_hash_creator(:name, 'Grace Hopper')
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
