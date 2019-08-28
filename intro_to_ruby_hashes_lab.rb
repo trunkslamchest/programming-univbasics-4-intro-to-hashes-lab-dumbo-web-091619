@@ -1,7 +1,7 @@
 def new_hash
   new_hash1 = {
-    key1: value1,
-    key2: value2
+    key1: "value1",
+    key2: "value2"
   }
 end
 
