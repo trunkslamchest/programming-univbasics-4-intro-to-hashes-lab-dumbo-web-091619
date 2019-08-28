@@ -22,7 +22,8 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  hash_creator = hash_creator[key] = value
+  hash_creator = Hash.new
+  hash_creator[key] = value
   puts hash_creator
 end
 
