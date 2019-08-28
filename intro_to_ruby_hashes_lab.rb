@@ -43,11 +43,11 @@ else
   hash[key] = 1
 end
 
-puts hash
+# puts hash
 # hash[key] ? hash[key] += 1 : hash[key] = 1
 
 
 end
 
-update_counting_hash({},'hello')
-update_counting_hash({total: 5},:age)
+# update_counting_hash({},'hello')
+# update_counting_hash({total: 5},:age)
