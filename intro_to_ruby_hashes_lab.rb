@@ -43,11 +43,8 @@ else
   hash[key] = 1
 end
 
-if hash[key] ? hash[key] += 1 :hash[key] = 1
-  
-else
-  
-end
+# hash[key] ? hash[key] += 1 : hash[key] = 1
+
 
 end
 
